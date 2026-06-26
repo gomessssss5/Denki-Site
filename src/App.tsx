@@ -26,8 +26,8 @@ export default function App() {
           <nav className="flex items-center space-x-6 text-sm font-medium">
             <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="flex items-center space-x-2 text-white hover:text-red-300 transition-colors cursor-pointer"><Home size={16} /><span>Início</span></button>
             <button onClick={() => document.getElementById('servicos')?.scrollIntoView({ behavior: 'smooth' })} className="flex items-center space-x-2 text-white hover:text-red-300 transition-colors cursor-pointer"><Briefcase size={16} /><span>Serviços</span></button>
-            <button className="flex items-center space-x-2 text-white/50 cursor-default"><Info size={16} /><span>Sobre</span></button>
-            <button className="flex items-center space-x-2 text-white/50 cursor-default"><Phone size={16} /><span>Contato</span></button>
+            <button onClick={() => document.getElementById('areas-atendidas')?.scrollIntoView({ behavior: 'smooth' })} className="flex items-center space-x-2 text-white hover:text-red-300 transition-colors cursor-pointer"><MapPin size={16} /><span>Áreas</span></button>
+            <button onClick={() => document.getElementById('contato')?.scrollIntoView({ behavior: 'smooth' })} className="flex items-center space-x-2 text-white hover:text-red-300 transition-colors cursor-pointer"><Phone size={16} /><span>Contato</span></button>
           </nav>
         </div>
       </header>
