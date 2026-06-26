@@ -1,0 +1,6 @@
+{
+  "name": "Imagem Centralizada",
+  "description": "Um site simples de página única contendo uma imagem centralizada e em tamanho grande.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
